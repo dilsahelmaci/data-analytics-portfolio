@@ -56,7 +56,7 @@ Inside Airbnb provided a raw dataset of **13,945 Airbnb listing entries** in Ber
   - Interactive Folium map with layered price choropleths and listing clusters
 
 ### **RESULT**
-- Produced a **reproducible, cleaned dataset with 15 streamlined features along with strong analytical integrity**
+- Produced a **reproducible, cleaned dataset with 15 features along with strong analytical integrity**
 - Delivered clear business insights:
   - **Price distribution:** The majority of listings fall within the €50–€150/night range. The market is right-skewed, with only a few luxury outliers above €500.
   - **Spatial trends:** Central districts like Mitte, Kreuzberg, and Pankow command the highest prices and listing densities, while outer areas like Marzahn-Hellersdorf and Reinickendorf offer affordability with lower supply.
@@ -82,7 +82,7 @@ Inside Airbnb provided a raw dataset of **13,945 Airbnb listing entries** in Ber
 │   └── berlin_bezirke.geojson                # Berlin district boundaries used for spatial visualizations
 │
 ├── images
-│   └── berlim_folium_map.png                 # Static screenshot of the Folium map for GitHub rendering
+│   └── berlin_folium_map.png                 # Static screenshot of the Folium map for GitHub rendering
 │
 ├── notebooks
 │   └── 01_data_cleaning_wrangling.ipynb      # Cleaning and preprocessing
