@@ -77,15 +77,18 @@ Inside Airbnb provided a raw dataset of **13,945 Airbnb listing entries** in Ber
 ## 📁 Project Structure
 ```
 ├── data
-│   └── listings.csv                    # Raw dataset from Inside Airbnb
-│   └── listings_cleaned.csv            # Cleaned, analysis-ready dataset
-│   └── berlin_bezirke.geojson          # Berlin district boundaries used for spatial visualizations
+│   └── listings.csv                          # Raw dataset from Inside Airbnb
+│   └── listings_cleaned.csv                  # Cleaned, analysis-ready dataset
+│   └── berlin_bezirke.geojson                # Berlin district boundaries used for spatial visualizations
+│
+├── images
+│   └── berlim_folium_map.png                 # Static screenshot of the Folium map for GitHub rendering
 │
 ├── notebooks
-│   └── 01_data_cleaning.ipynb          # Cleaning and preprocessing
-│   └── 02_exploratory_analysis.ipynb   # EDA, visualizations, and interpretations
+│   └── 01_data_cleaning_wrangling.ipynb      # Cleaning and preprocessing
+│   └── 02_exploratory_data_analysis.ipynb    # EDA, visualizations, and interpretations
 │
-└── README.md                           # Project summary and STAR breakdown
+└── README.md                                 # Project summary and STAR breakdown
 ```
 ---
 
