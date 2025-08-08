@@ -1,6 +1,6 @@
 # 🏡 Beyond the Listings: A Deep Dive into Berlin’s Airbnb Landscape
 
-*An advanced data analytics project designed to uncover stragetic insights from real-world Airbnb listings data.*
+*An advanced data analytics project designed to uncover strategic insights from real-world Airbnb listings data.*
 
 ## 🎯 Project Overview
 
