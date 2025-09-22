@@ -51,7 +51,7 @@ The business needed segmented, actionable analytics to identify which products, 
 - Produced clear tables and result snapshots (see `/reports/images`) for each sub-question to turn raw data into business stories
 - Performed cohort, customer segment, and profitability analyses to reveal actionable patterns
 - Spotted data quality issues (e.g., “Unknown” values) and highlighted critical gaps for the business team
-- Summarized all findings in a detailed `/reports/report.md`, connecting every insight directly to business use cases
+- Summarized all findings in a detailed `/reports/README.md`, connecting every insight directly to business use cases
 
 ### **RESULT**
 - **Market Leaders:** US, Australia, and UK account for more than 70% of customers and sales revenue.
@@ -84,7 +84,7 @@ sales-analytics/
 │   └── data_catalog.md                                     # Data dictionary and column definitions
 │
 ├── reports/                                                # Analytical outputs and visual summaries
-│   ├── report.md                                           # Full business analysis and recommendations
+│   ├── README.md                                           # Full business analysis and recommendations
 │   └── images/                                             # Table snapshots and visual outputs per question
 │       ├── Q01_1_customer_country_distribution.png
 │       ├── Q01_2_customer_gender_distribution.png
@@ -137,7 +137,7 @@ sales-analytics/
 ---
 ### ⚠️ Copyright & Usage Notice
 
-All code, analysis, and documentation in this repository are original work by me, Dilsah Nur Elmaci.
+**All code, analysis, and documentation in this repository are original work by me, Dilsah Nur Elmaci.**
 
 If you would like to reference, reuse, or learn from any part of this project, please **reach out or provide clear attribution**.  
 
