@@ -7,6 +7,7 @@ An interactive business intelligence project built with **Tableau** to visualize
 ## 🎯 Project Overview
 
 This Tableau project combines four datasets (*Orders*, *Products*, *Customers*, and *Location*) into a unified data model that delivers a holistic view of business performance.  
+
 The dashboards are designed for **sales managers, executives, and marketing teams to explore year-over-year performance, product profitability, and customer engagement patterns through rich interactivity**.
 
 ---
@@ -55,14 +56,14 @@ Although it collected detailed sales and customer data, **it lacked an integrate
 
 ### 🧾 **1️⃣ Sales Dashboard**
 
-#### **KEY INSIGHTS**
+### **Key Insights**
 Between 2020 and 2023, **total sales increased by over 50%** (from $484K to $733K), showing steady YoY growth except for a brief dip in 2021.  
 Profitability improved significantly, especially between 2021 and 2022, when both sales and profit grew by more than 30%.  
 
 Phones and Chairs consistently led in sales and profit, while Machines and Tables generated strong revenue but fluctuating margins.  
 Seasonality patterns revealed demand peaks in **December** and slowdowns in **January**, aligning with end-of-year purchasing cycles.  
 
-#### **RECOMMENDATIONS**
+### **Recommendations**
 - **Prioritize High-Margin Categories:** Focus marketing and inventory on Phones and Chairs.  
 - **Reassess Machines Category:** Review pricing and cost structure to improve consistency.  
 - **Leverage Seasonality:** Plan campaigns ahead of December peaks and adjust Q1 stock levels.  
@@ -72,14 +73,14 @@ Seasonality patterns revealed demand peaks in **December** and slowdowns in **Ja
 
 ### 👥 **2️⃣ Customer Dashboard**
 
-#### **KEY INSIGHTS**
+### **Key Insights**
 From 2020 to 2023, the company’s customer base expanded by **16.4%** (595 → 693), while **total orders increased by 74%** (969 → 1,687), signaling strong customer acquisition and retention.  
 Average sales per customer rose from **$814 to $1,058** (+30%), indicating higher engagement and spending.  
 
 Most customers placed 1–2 orders, but the share of repeat buyers increased steadily, which is a positive sign of growing loyalty.  
 High-value customers remained key profit contributors, though profit distribution widened to include a healthier mix of new and returning clients.  
 
-#### **RECOMMENDATIONS**
+### **Recommendations**
 - **Loyalty Incentives:** Reward 3+ order customers with exclusive benefits or loyalty tiers.  
 - **Customer Segmentation:** Target 2-order customers with personalized retention campaigns.  
 - **CRM Strategy:** Strengthen engagement during lower-performing years (e.g., 2021).  
@@ -124,7 +125,7 @@ A unified filter sidebar enables dynamic multi-dimensional analysis:
 ![Sales Dashboard](./dashboards/Sales_Dashboard_2023.png)
 
 🔗 **View the Live Dashboards on Tableau Public:**  
-[Sales Performance Dashboards](https://public.tableau.com/views/SalesandCustomerDashboard_17602733710230/SalesDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+[Sales Performance Dashboard](https://public.tableau.com/views/SalesandCustomerDashboard_17602733710230/SalesDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ---
 
@@ -137,7 +138,7 @@ A unified filter sidebar enables dynamic multi-dimensional analysis:
 ![Customer Dashboard](./dashboards/Customer_Dashboard_2023.png)
 
 🔗 **View the Live Dashboards on Tableau Public:**  
-[Customer Performance Dashboards](https://public.tableau.com/views/SalesandCustomerDashboard_17602733710230/CustomerDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+[Customer Performance Dashboard](https://public.tableau.com/views/SalesandCustomerDashboard_17602733710230/CustomerDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ---
 
