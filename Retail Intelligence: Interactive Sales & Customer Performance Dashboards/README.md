@@ -145,20 +145,20 @@ A unified filter sidebar enables dynamic multi-dimensional analysis:
 
 ## 📁 Project Structure
 ```
-├── data/
-│   ├── Customers.csv
-│   ├── Orders.csv
-│   ├── Products.csv
-│   └── Location.csv
+├── data/                                   # Raw datasets used to build the Tableau dashboards
+│   ├── Customers.csv                       # Contains customer information (ID, name, details)
+│   ├── Orders.csv                          # Transactional data including sales, profit, and quantity
+│   ├── Products.csv                        # Product category and subcategory mapping
+│   └── Location.csv                        # Regional, state, and city data for geographic analysis
 │
-├── dashboards/
-│   ├── Sales_Dashboard_2023.png
-│   └── Customer_Dashboard_2023.png
+├── dashboards/                             # Exported dashboard images for quick preview
+│   ├── Sales_Dashboard_2023.png            # Sales performance dashboard (KPI, trends, subcategory analysis)
+│   └── Customer_Dashboard_2023.png         # Customer insights dashboard (loyalty, top customers)
 │
-├── user_story_specs/
-│   ├── README.md
+├── user_story_specs/                       # Business and stakeholder requirements documentation
+│   ├── README.md                           # Detailed user story outlining goals, KPIs, and design specs
 │
-└── README.md
+└── README.md                               # Main project overview and explanation file
 ```
 
 ---
