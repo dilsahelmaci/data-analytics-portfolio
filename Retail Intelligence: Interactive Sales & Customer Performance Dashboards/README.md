@@ -16,7 +16,7 @@ The dashboards are designed for **sales managers, executives, and marketing team
 **Objective:** Provide actionable insights into sales growth, profit trends, and customer loyalty.  
 **Tools & Features:** Tableau Public · Data Blending & Relationships · Calculated Fields · Dynamic Parameters · Interactive Filters · Dashboard Actions · KPI Design · Data Visualization
 
-**🟢 Live Dashboards on Tableau Public 🟢:** 
+**🟢 Dashboards on Tableau Public 🟢:** 
 
 [Sales & Customer Performance Dashboards](https://public.tableau.com/views/SalesandCustomerDashboard_17602733710230/SalesDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) 
 
@@ -125,7 +125,7 @@ A unified filter sidebar enables dynamic multi-dimensional analysis:
 📸 *Preview:*  
 ![Sales Dashboard](./dashboards/Sales_Dashboard_2023.png)
 
-🔗 **View the Live Dashboards on Tableau Public:**  
+🔗 **View the Dashboards on Tableau Public:**  
 [Sales Performance Dashboard](https://public.tableau.com/views/SalesandCustomerDashboard_17602733710230/SalesDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ---
@@ -138,7 +138,7 @@ A unified filter sidebar enables dynamic multi-dimensional analysis:
 📸 *Preview:*  
 ![Customer Dashboard](./dashboards/Customer_Dashboard_2023.png)
 
-🔗 **View the Live Dashboards on Tableau Public:**  
+🔗 **View the Dashboards on Tableau Public:**  
 [Customer Performance Dashboard](https://public.tableau.com/views/SalesandCustomerDashboard_17602733710230/CustomerDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ---
