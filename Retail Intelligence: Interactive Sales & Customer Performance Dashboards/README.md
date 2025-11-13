@@ -51,9 +51,7 @@ Although it collected detailed sales and customer data, **it lacked an integrate
   - Product filters by **Category** and **Subcategory**.  
   - Geographic filters for **Region**, **State**, and **City**.  
 
----
-
-## 📈 RESULTS & RECOMMENDATIONS
+### RESULTS & RECOMMENDATIONS
 
 ### 🧾 **1️⃣ Sales Dashboard**
 
