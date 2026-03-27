@@ -1,0 +1,101 @@
+shipment_id,origin_warehouse,destination_city,destination_state,carrier,ship_date,delivery_date,weight_kg,freight_cost,shipment_status,items_count,damage_reported
+SHP-1001,Warehouse A,Dallas,TX,FastFreight,2024-01-10,2024-01-14,120.5,450.00,Delivered,48,No
+SHP-1002,warehouse b,  Los Angeles  ,CA,SPEEDYHAUL,2024-01-12,2024-01-11,85.3,320.00,delivered,30,no
+SHP-1003,Warehouse A,Dallas,TX,FastFreight,2024-01-10,2024-01-14,120.5,450.00,Delivered,48,No
+SHP-1004,Warehouse C,Chicago,il,FastFreight,01/15/2024,01/19/2024,200.0,610.00,In Transit,75,NULL
+SHP-1005,warehouse a,Houston,TX,QuickShip,,2024-01-20,-45.2,280.00,Delivered,20,Yes
+SHP-1006,Warehouse B,Phoenix,AZ,SpeedyHaul,2024-01-18,2024-01-23,95.0,,Delivered,0,No
+SHP-1007,  Warehouse D  ,Seattle,WA,quickship,2024-01-20,2024-01-25,310.8,980.00,delivered,110,yes
+SHP-1008,Warehouse C,Denver,CO,FastFreight,2024/01/22,2024/01/27,150.0,520.00,Pending,55,No
+SHP-1009,Warehouse B,Miami,FL,SpeedyHaul,2024-01-25,2024-02-01,88.7,345.00,Delivered,33,NULL
+SHP-1010,WAREHOUSE A,  dallas  ,tx,FASTFREIGHT,2024-02-01,2024-02-05,175.3,590.00,DELIVERED,65,NO
+SHP-1011,Warehouse D,Portland,OR,QuickShip,2024-02-03,2024-02-08,60.0,210.00,Cancelled,-15,No
+SHP-1012,Warehouse B,Los Angeles,CA,SpeedyHaul,2024-02-05,2024-02-10,85.3,320.00,Delivered,30,No
+SHP-1013,Warehouse C,,IL,FastFreight,2024-02-08,2024-02-12,225.0,670.00,Delivered,80,Yes
+SHP-1014,warehouse d,San Francisco,CA,QuickShip,Feb 10 2024,Feb 15 2024,140.6,485.00,In transit,52,No
+SHP-1015,Warehouse A,Houston,TX,FastFreight,2024-02-12,2024-02-16,98.4,370.00,Delivered,40,No
+SHP-1016,Warehouse B,Phoenix,AZ,SpeedyHaul,2024-02-14,2024-02-19,95.0,15000.00,Delivered,35,Yes
+SHP-1017,  warehouse c  ,Denver,CO,QUICKSHIP,2024-02-18,2024-02-23,0.0,0.00,Pending,0,NULL
+SHP-1018,Warehouse D,Seattle,WA,QuickShip,2024-02-20,2024-02-25,310.8,980.00,Delivered,110,No
+SHP-1019,Warehouse A,Atlanta,GA,FastFreight,2024-02-22,,165.0,540.00,In Transit,60,No
+SHP-1020,Warehouse B,Miami,FL,speedyhaul,2024-02-25,2024-03-02,72.1,265.00,Delivered,28,no
+SHP-1021,Warehouse C,Chicago,IL,FastFreight,2024-03-01,2024-03-05,190.0,600.00,Delivered,70,No
+SHP-1022,WAREHOUSE D,  Portland  ,or,QUICKSHIP,2024-03-03,2024-03-08,55.4,195.00,CANCELLED,22,NO
+SHP-1023,Warehouse A,Dallas,TX,FastFreight,2024-03-05,2024-03-09,120.5,450.00,Delivered,48,Yes
+SHP-1024,Warehouse B,Los Angeles,CA,SpeedyHaul,March 7 2024,March 12 2024,130.2,460.00,Delivered,50,No
+SHP-1025,Warehouse C,San Francisco,CA,QuickShip,2024-03-10,2024-03-15,145.9,500.00,Delivered,54,No
+SHP-1026,Warehouse A,dallas,TX,quickship,04/11/2024,Apr 18 2024,0.0,9988.38,delivered,81,No
+SHP-1027,WAREHOUSE A,Denver,co,FASTFREIGHT,2024-04-25,,123.0,319.79,pending,70,No
+SHP-1028,WAREHOUSE C,  Seattle  ,WA,FASTFREIGHT,2024-06-04,06/11/2024,236.2,921.42,delivered,33,no
+SHP-1029,warehouse D,  Chicago  ,IL,Speedyhaul,2024-03-28,04/03/2024,204.0,860.50,DELIVERED,-66,NULL
+SHP-1030,WAREHOUSE A,atlanta,GA,QuickShip,June 17 2024,June 19 2024,131.6,376.87,delivered,12,NULL
+SHP-1031,warehouse a,  Austin  ,TX,quickship,July 01 2024,07/09/2024,135.7,357.33,CANCELLED,84,null
+SHP-1032,WAREHOUSE C,  Miami  ,FL,Quickship,2024/03/26,2024-03-28,-144.7,,delivered,0,no
+SHP-1033,WAREHOUSE B,  Los Angeles  ,ca,SpeedyHaul,Jun 03 2024,06/08/2024,166.3,746.16,DELIVERED,18,No
+SHP-1034,WAREHOUSE A,austin,TX,FastFreight,April 01 2024,Apr 06 2024,-108.1,369.96,Delivered,19,No
+SHP-1035,WAREHOUSE D,portland,or,Quickship,March 18 2024,March 20 2024,296.1,786.92,cancelled,20,no
+SHP-1036,warehouse D,Seattle,WA,QuickShip,2024/03/12,March 18 2024,338.8,904.09,Delivered,39,no
+SHP-1037,WAREHOUSE A,austin,tx,FastFreight,2024/06/14,06/11/2024,128.1,382.31,DELIVERED,55,No
+SHP-1038,warehouse a,las vegas,nv,QuickShip,May 24 2024,05/29/2024,-82.6,265.06,delivered,113,
+SHP-1039,WAREHOUSE B,  Phoenix  ,az,SpeedyHaul,2024/06/19,2024-06-24,302.3,1352.72,in transit,40,No
+SHP-1040,Warehouse C,DALLAS,TX,FASTFREIGHT,May 26 2024,06/02/2024,277.0,,DELIVERED,77,no
+SHP-1041,  Warehouse C  ,  Denver  ,co,quickship,May 20 2024,May 25 2024,241.2,0.00,delivered,107,null
+SHP-1042,warehouse C,Los Angeles,CA,Fastfreight,Jun 05 2024,06/13/2024,103.7,265.08,DELIVERED,43,null
+SHP-1043,warehouse D,  Dallas  ,TX,QUICKSHIP,July 06 2024,,84.3,300.84,PENDING,79,
+SHP-1044,  Warehouse B  ,Phoenix,az,Fastfreight,,03/23/2024,125.2,405.06,in transit,81,no
+SHP-1045,  Warehouse D  ,Las Vegas,nv,speedyhaul,05/18/2024,,0.0,1282.76,IN TRANSIT,74,no
+SHP-1046,warehouse b,Miami,fl,FastFreight,2024-04-23,,0.0,595.82,In transit,65,no
+SHP-1047,warehouse C,nashville,TN,QuickShip,2024-04-01,April 08 2024,0.0,1101.82,DELIVERED,32,NULL
+SHP-1048,warehouse c,  Portland  ,OR,QUICKSHIP,2024/06/03,June 09 2024,236.0,596.87,Delivered,65,Yes
+SHP-1049,Warehouse C,austin,TX,Quickship,April 11 2024,,225.0,758.63,IN TRANSIT,15,no
+SHP-1050,warehouse a,los angeles,ca,QUICKSHIP,04/08/2024,2024/04/11,135.3,519.22,Delivered,72,no
+SHP-1051,Warehouse B,SEATTLE,WA,Speedyhaul,Apr 18 2024,2024/04/24,82.3,214.37,DELIVERED,18,NO
+SHP-1052,Warehouse A,Chicago,IL,FASTFREIGHT,Jun 22 2024,2024/06/26,70.1,215.27,Delivered,83,Yes
+SHP-1053,warehouse b,portland,OR,SpeedyHaul,03/31/2024,Apr 05 2024,248.4,889.47,delivered,16,NO
+SHP-1054,warehouse C,MIAMI,FL,Fastfreight,May 09 2024,,0.0,511.75,IN TRANSIT,81,no
+SHP-1055,WAREHOUSE B,SAN FRANCISCO,CA,FastFreight,May 31 2024,2024-06-02,183.7,631.78,PENDING,53,no
+SHP-1056,Warehouse D,  Dallas  ,TX,Quickship,05/16/2024,05/24/2024,192.1,675.56,DELIVERED,18,No
+SHP-1057,Warehouse D,AUSTIN,TX,Speedyhaul,May 15 2024,2024/05/20,291.2,1384.53,IN TRANSIT,43,NO
+SHP-1058,  Warehouse D  ,Seattle,wa,SpeedyHaul,May 20 2024,,179.3,580.95,IN TRANSIT,36,NULL
+SHP-1059,warehouse d,Dallas,tx,quickship,May 02 2024,,67.1,288.36,pending,45,No
+SHP-1060,  Warehouse A  ,miami,fl,FASTFREIGHT,Jun 07 2024,June 09 2024,58.6,253.80,delivered,49,no
+SHP-1061,warehouse B,  Los Angeles  ,CA,FastFreight,2024/07/09,2024-07-15,133.3,628.20,DELIVERED,100,no
+SHP-1062,warehouse C,nashville,TN,Fastfreight,May 27 2024,2024-05-30,232.8,914.45,Pending,-98,YES
+SHP-1063,  Warehouse C  ,Portland,or,QUICKSHIP,Jun 25 2024,July 03 2024,323.5,1528.53,DELIVERED,49,yes
+SHP-1064,warehouse a,atlanta,GA,Fastfreight,May 10 2024,2024-05-16,141.8,553.47,DELIVERED,94,No
+SHP-1065,warehouse d,Atlanta,GA,quickship,2024/06/25,2024-06-30,322.0,1012.18,DELIVERED,100,No
+SHP-1066,warehouse a,Nashville,,QuickShip,04/11/2024,04/19/2024,211.6,562.39,Cancelled,109,NO
+SHP-1067,Warehouse C,Dallas,tx,FastFreight,April 13 2024,2024/04/20,169.2,467.23,delivered,-20,No
+SHP-1068,warehouse a,  Seattle  ,wa,FastFreight,March 19 2024,03/25/2024,231.8,871.85,delivered,53,NO
+SHP-1069,WAREHOUSE C,SEATTLE,WA,fastfreight,2024/06/06,,71.9,193.87,Cancelled,67,No
+SHP-1070,WAREHOUSE C,LAS VEGAS,NV,quickship,2024/03/25,,111.7,0.00,IN TRANSIT,83,NULL
+SHP-1071,warehouse B,  Boston  ,ma,speedyhaul,2024-03-22,2024/03/25,156.0,552.77,In Transit,32,no
+SHP-1072,warehouse d,los angeles,CA,SPEEDYHAUL,2024-06-05,Jun 10 2024,0.0,643.16,In Transit,40,no
+SHP-1073,warehouse a,  Miami  ,fl,FASTFREIGHT,Jun 29 2024,2024-07-04,214.2,885.04,Delivered,65,No
+SHP-1074,warehouse A,PORTLAND,OR,Fastfreight,Jul 04 2024,Jul 08 2024,259.6,1137.98,IN TRANSIT,116,NO
+SHP-1075,warehouse c,nashville,TN,QuickShip,May 25 2024,2024-05-31,66.9,238.30,delivered,16,NO
+SHP-1076,warehouse A,  Portland  ,OR,fastfreight,2024-03-16,2024/03/21,337.3,1249.82,DELIVERED,90,NO
+SHP-1077,warehouse b,,TX,FASTFREIGHT,April 19 2024,2024-04-26,240.3,672.02,CANCELLED,102,NULL
+SHP-1078,Warehouse B,  Chicago  ,il,SPEEDYHAUL,March 20 2024,03/28/2024,74.8,319.62,delivered,118,Yes
+SHP-1079,WAREHOUSE B,Phoenix,AZ,FASTFREIGHT,2024/07/04,2024-07-08,245.1,934.31,Pending,68,no
+SHP-1080,WAREHOUSE D,  Austin  ,TX,Quickship,2024/06/25,06/28/2024,285.9,1296.46,Delivered,15,No
+SHP-1081,warehouse a,phoenix,,FASTFREIGHT,June 25 2024,June 22 2024,0.0,780.14,delivered,111,No
+SHP-1082,warehouse a,Portland,OR,quickship,03/19/2024,2024-03-25,0.0,929.33,cancelled,0,no
+SHP-1083,Warehouse D,ATLANTA,ga,Quickship,2024-06-22,06/29/2024,274.0,973.43,delivered,49,no
+SHP-1084,warehouse B,  Miami  ,fl,Fastfreight,April 27 2024,,123.7,332.75,Cancelled,66,No
+SHP-1085,warehouse d,seattle,WA,QUICKSHIP,2024/03/14,Mar 20 2024,245.0,859.41,Delivered,28,No
+SHP-1086,WAREHOUSE B,MIAMI,fl,FASTFREIGHT,Jul 05 2024,2024-07-09,273.6,1127.04,DELIVERED,39,null
+SHP-1087,  Warehouse B  ,Nashville,TN,Fastfreight,May 15 2024,May 18 2024,278.7,848.50,DELIVERED,75,no
+SHP-1088,  Warehouse D  ,Seattle,WA,quickship,2024-01-20,2024-01-25,310.8,980.00,delivered,110,yes
+SHP-1089,  Warehouse B  ,chicago,il,Fastfreight,June 26 2024,2024/06/28,288.4,739.82,Cancelled,-17,NULL
+SHP-1090,Warehouse D,Denver,CO,Speedyhaul,2024/05/09,May 15 2024,87.4,391.68,Delivered,52,yes
+SHP-1091,Warehouse C,  Houston  ,tx,Fastfreight,May 13 2024,,192.1,616.57,CANCELLED,14,No
+SHP-1092,warehouse b,,wa,Fastfreight,03/20/2024,March 25 2024,270.5,850.28,Delivered,91,NO
+SHP-1093,WAREHOUSE B,seattle,WA,Fastfreight,2024/03/31,2024-04-06,263.1,11312.40,DELIVERED,55,No
+SHP-1094,Warehouse B,Phoenix,AZ,SpeedyHaul,2024-02-14,2024-02-19,95.0,15000.00,Delivered,35,Yes
+SHP-1095,  Warehouse C  ,SAN FRANCISCO,ca,QuickShip,2024/04/04,2024-04-08,209.6,632.40,cancelled,50,Yes
+SHP-1096,WAREHOUSE C,  Austin  ,TX,quickship,06/02/2024,2024-06-07,108.1,476.10,delivered,46,
+SHP-1097,  Warehouse B  ,  Nashville  ,tn,FastFreight,,2024-04-23,312.8,,DELIVERED,85,NO
+SHP-1098,warehouse a,austin,tx,Quickship,2024/04/16,2024/04/23,205.3,746.47,Delivered,29,yes
+SHP-1099,Warehouse B,Los Angeles,CA,SpeedyHaul,March 7 2024,March 12 2024,130.2,460.00,Delivered,50,No
+SHP-1100,warehouse c,SAN FRANCISCO,CA,fastfreight,April 08 2024,2024-04-13,90.2,380.63,Cancelled,89,No
