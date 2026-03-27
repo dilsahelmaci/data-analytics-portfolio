@@ -7,7 +7,7 @@
 
 Starting from a raw shipment dataset riddled with inconsistent casing, mixed date formats, negative values, duplicates, missing entries, and statistical outliers, this project builds a **structured three-layer SQL pipeline in BigQuery** that progressively cleans, standardises, and enriches the data layer by layer, step by step.
 
-The result is a **fact table that is reliable, consistent, and ready for analysis**, along with full transparency into every transformation applied and why.
+The result is a **fact view that is reliable, consistent, and ready for analysis**, along with full transparency into every transformation applied and why.
 
 ---
 
