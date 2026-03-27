@@ -1,10 +1,10 @@
 # 📖 Data Catalog — Shipments Cleaning Project
 
-This document describes all fields present across the three layers of the pipeline: the raw source data, the staging table, and the final fact view.
+This document describes all fields present across the three layers of the Medallion architecture: the raw source data, the staging table, and the final fact view.
 
 ---
 
-## 🟫 Raw Layer — `raw_shipments`
+## 🥉 Raw Layer (Bronze) — `raw_shipments`
 
 Direct copy of the source CSV. No transformations applied. All original quality issues are preserved here for auditability.
 
@@ -25,7 +25,7 @@ Direct copy of the source CSV. No transformations applied. All original quality 
 
 ---
 
-## 🟦 Staging Layer — `stg_shipments`
+## 🥈 Staging Laye (Silver) — `stg_shipments`
 
 Fully cleaned and standardised version of the raw data. Each column has been processed through nine sequential cleaning steps. The `shipment_status` column is dropped in this layer as it was not used in cleaning logic and is not carried into the fact layer.
 
@@ -49,7 +49,7 @@ Fully cleaned and standardised version of the raw data. Each column has been pro
 
 ---
 
-## 🟩 Fact Layer — `fct_shipments`
+## 🥇 Fact Layer (Gold) — `fct_shipments`
 
 A view built on top of `stg_shipments`. Exposes the clean columns and adds derived business metrics. Columns like `original_freight_cost` and `was_outlier` are excluded from this layer as they are internal pipeline audit fields.
 
