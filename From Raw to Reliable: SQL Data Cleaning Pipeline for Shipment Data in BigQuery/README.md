@@ -51,34 +51,7 @@ The raw dataset contained a realistic mix of data quality issues:
 
 The pipeline follows a **three-layer medallion architecture**, where each layer has a clear and distinct responsibility.
 
-```mermaid
-flowchart TD
-    A[📄 Source Data\nshipments_raw.csv] --> B
-
-    subgraph RAW["🟫 RAW LAYER — 01_create_raw_shipments.sql"]
-        B[raw_shipments\nExact copy of source data\nNo transformations]
-    end
-
-    B --> C
-
-    subgraph STG["🟦 STAGING LAYER — 02_create_stg_shipments.sql"]
-        C[Step 1: Trim whitespace]
-        --> D[Step 2: Standardise casing\nINITCAP / UPPER]
-        --> E[Step 3: Handle NULLs\nEmpty strings + literal 'NULL']
-        --> F[Step 4: Fix numeric issues\nNegatives → ABS, Zeros → NULL]
-        --> G[Step 5: Parse mixed date formats\n6 format patterns via SAFE.PARSE_DATE]
-        --> H[Step 6: Date validation & transit days\nDATE_DIFF + quality flag]
-        --> I[Step 7: Remove duplicates\nROW_NUMBER partitioned on key fields]
-        --> J[Step 8: Calculate IQR bounds\nAPPROX_QUANTILES for freight_cost]
-        --> K[Step 9: Cap outliers\nWinsorisation using IQR bounds]
-    end
-
-    K --> L
-
-    subgraph FCT["🟩 FACT LAYER — 03_create_fct_shipments.sql"]
-        L[fct_shipments\nClean columns + derived fields:\ncost_per_kg · ship_month\ndelivery_speed · freight_cost_band]
-    end
-```
+![Pipeline Architecture](images/pipeline_architecture.png)
 
 ---
 
@@ -131,9 +104,12 @@ A logistics company generates shipment records across multiple warehouses, carri
 ├── docs/
 │   └── data_catalog.md                # Column definitions, types, and data quality notes
 │
+├── images/
+│   └── pipeline_architecture.png      # Medallion architecture diagram (Bronze → Silver → Gold)
+│
 ├── scripts/
 │   ├── 01_create_raw_shipments.sql    # Raw layer: direct copy of source table
-│   ├── 02_create_stg_shipments.sql    # Staging layer: full cleaning pipeline (9 steps)
+│   ├── 02_create_stg_shipments.sql    # Staging layer: full cleaning pipeline
 │   └── 03_create_fct_shipments.sql    # Fact layer: clean view with derived metrics
 │
 └── README.md
