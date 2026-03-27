@@ -73,8 +73,6 @@ The business needed segmented, actionable analytics to identify which products, 
 
 ## 📁 Project Structure
 ```
-sales-analytics/
-│
 ├── datasets/                                               # Source data (gold layer, business-ready)
 │   ├── gold.dim_customers.csv                              # Customer dimension table
 │   ├── gold.dim_products.csv                               # Product dimension table
